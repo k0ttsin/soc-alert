@@ -1,11 +1,14 @@
-#SOC Alert
-AI assistant for SOC Alerts to enrich them with useful context
+# SOC Alert
+
+AI assistant for SOC Alerts to enrich them with useful context.
 
 <details>
 <summary><b>📁 Project Structure</b></summary>
+
+```text
 soc-ai-assistant/
-├── config.yaml (API Keys, Model Settings)
-├── pyproject.toml (Dependencies)
+├── config.yaml              # API keys, model settings, thresholds
+├── pyproject.toml           # Dependencies
 ├── Dockerfile
 ├── docker-compose.yml
 ├── src/
@@ -45,6 +48,8 @@ soc-ai-assistant/
     ├── architecture.md
     ├── api_reference.md
     └── deployment.md
+```
+
 </details>
 
 ## Key Dependencies (pyproject.toml)
